@@ -4,7 +4,7 @@ import numpy as np
 from sklearn.impute import SimpleImputer, KNNImputer
 
 
-df = pd.read_csv(r'P:\MachineLearningAZ\Machine Learning A-Z AI, Python & R + ChatGPT Bonus 2023\02 - -------------------- Part 1 Data Preprocessing --------------------\Python\Data.csv')
+df = pd.read_csv(r'data.csv')
 
 def check_float(df, column):
     if df[column].dtype != np.float64:
