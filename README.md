@@ -17,5 +17,3 @@ df = pd.read_csv('data.csv')
 df = handle_missing_data(df, columns_with_missing_values(df))
 print(df)
 
-
-!Example Image
